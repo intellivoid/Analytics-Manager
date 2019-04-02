@@ -5,6 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Utilities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Abstracts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Exceptions" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

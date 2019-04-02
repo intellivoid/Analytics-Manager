@@ -1,6 +1,8 @@
 <?php
 
     namespace AnalyticsManager\Objects;
+    use AnalyticsManager\Exceptions\InvalidDayException;
+    use AnalyticsManager\Exceptions\ObjectNotAvailableException;
 
     /**
      * Class MonthData
@@ -79,5 +81,61 @@
             }
 
             return $MonthDataObject;
+        }
+
+        /**
+         * Tallies the usage for today
+         *
+         * @param int $amount
+         */
+        public function tally(int $amount = 1)
+        {
+            $this->data[(int)date('j')] += $amount;
+        }
+
+        /**
+         * Sets a hard value
+         *
+         * @param int $day
+         * @param int $amount
+         * @throws InvalidDayException
+         * @throws ObjectNotAvailableException
+         */
+        public function set(int $day, int $amount)
+        {
+            if($this->available == false)
+            {
+                throw new ObjectNotAvailableException();
+            }
+
+            if(isset($this->data[$day]) == false)
+            {
+                throw new InvalidDayException();
+            }
+
+            $this->data[$day] = $amount;
+        }
+
+        /**
+         * Gets the total
+         *
+         * @return int
+         * @throws ObjectNotAvailableException
+         */
+        public function total(): int
+        {
+            if($this->available == false)
+            {
+                throw new ObjectNotAvailableException();
+            }
+
+            $total = 0;
+
+            foreach($this->data as $day => $usage)
+            {
+                $total += $usage;
+            }
+
+            return $total;
         }
     }
