@@ -2,7 +2,6 @@
 
     namespace AnalyticsManager\Objects;
 
-
     use AnalyticsManager\Exceptions\InvalidDayException;
     use AnalyticsManager\Exceptions\ObjectNotAvailableException;
 
