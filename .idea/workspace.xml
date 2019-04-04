@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/InvalidHourException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Objects/DayData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Analytics Manager.iml" afterPath="$PROJECT_DIR$/.idea/Analytics Manager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/Abstracts/ExceptionCodes.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Abstracts/ExceptionCodes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,92 +68,30 @@
     <favorites_list name="Analytics Manager" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DayData.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/DayData.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#53#105#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InvalidHourException.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Exceptions/InvalidHourException.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ExceptionCodes.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Abstracts/ExceptionCodes.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AnalyticsManager.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="114" lean-forward="false" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MonthData.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/MonthData.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#51#103#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Manager.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="MonthData.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/MonthData.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="812">
-                  <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#51#103#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="DayData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/DayData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+              <folding>
+                <element signature="e#53#105#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Builder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,7 +101,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/AnalyticsManager/configuration.ini" />
         <option value="$PROJECT_DIR$/database/analytics.sql" />
-        <option value="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/InvalidDayException.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/ObjectNotAvailableException.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" />
@@ -178,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/InvalidHourException.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Objects/DayData.php" />
+        <option value="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" />
       </list>
     </option>
   </component>
@@ -209,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +159,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AnalyticsManager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Analytics Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analytics-manager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticsManager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilities" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +288,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,12 +398,13 @@
       <workItem from="1554338532036" duration="301000" />
       <workItem from="1554338900658" duration="40000" />
       <workItem from="1554338994502" duration="60000" />
-      <workItem from="1554339116468" duration="1288000" />
+      <workItem from="1554339116468" duration="1327000" />
+      <workItem from="1554385069570" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13056000" />
+    <option name="totallyTimeSpent" value="13503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,14 +419,14 @@
     <frame x="17" y="14" width="1327" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17679559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3956044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -514,7 +470,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -540,7 +496,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,7 +522,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,7 +548,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,7 +574,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -644,7 +600,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,7 +610,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -680,7 +636,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -727,7 +683,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -767,22 +723,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager/Managers/Manager.php" />
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/DayData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/DayData.php" />
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -793,10 +735,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/MonthData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="812">
+          <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="true" />
+            <element signature="e#51#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -827,11 +769,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Objects/DayData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="297">
           <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding>
             <element signature="e#53#105#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
