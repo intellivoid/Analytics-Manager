@@ -10,4 +10,5 @@
     {
         const InvalidDayException = 100;
         const ObjectNotAvailableException = 101;
+        const InvalidHourException = 102;
     }
