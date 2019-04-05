@@ -9,6 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Abstracts" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Exceptions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/Managers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/ZiProto" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/ZiProto/Abstracts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/ZiProto/Exception" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/ZiProto/Type" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AnalyticsManager/ZiProto/TypeTransformer" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
