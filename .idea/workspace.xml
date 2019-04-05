@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Abstracts/RecordSearchMethod.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/DatabaseException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/InvalidRecordSearchMethodException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/RecordAlreadyExistsException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/RecordNotFoundException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Hashing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Abstracts/Options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Abstracts/Regex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/BufferStream.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/DecodingOptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/EncodingOptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Exception/DecodingFailedException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Exception/EncodingFailedException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Exception/InsufficientDataException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Exception/IntegerOverflowException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Exception/InvalidOptionException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Ext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Packet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Type/Binary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Type/Map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/TypeTransformer/BinaryTransformer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/TypeTransformer/Extension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/TypeTransformer/MapTransformer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/TypeTransformer/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/ZiProto/ZiProto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Analytics Manager.iml" afterPath="$PROJECT_DIR$/.idea/Analytics Manager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/Abstracts/ExceptionCodes.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Abstracts/ExceptionCodes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" afterPath="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,21 +79,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+            <state relative-caret-position="510">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="e#53#103#0#PHP" expanded="true" />
-                <marker date="1554425425454" expanded="true" signature="2746:2766" ph="INSERT INTO ``... " />
-                <marker date="1554425425454" expanded="true" signature="2746:2801" ph="INSERT INTO `${$table}`... " />
-                <marker date="1554425425454" expanded="true" signature="2746:2969" ph="INSERT INTO `${$table}`... " />
-                <marker date="1554425425454" expanded="true" signature="4825:4932" ph="SELECT * FRO... " />
-                <marker date="1554425425454" expanded="true" signature="4825:4941" ph="SELECT * FRO... " />
-                <marker date="1554425425454" expanded="true" signature="4825:4949" ph="SELECT * FRO... ${$table}" />
-                <marker date="1554425425454" expanded="true" signature="4825:4963" ph="SELECT * FRO... ${$table}" />
+                <marker date="1554425435639" expanded="true" signature="2794:2814" ph="INSERT INTO ``... " />
+                <marker date="1554425435639" expanded="true" signature="2794:2849" ph="INSERT INTO `${$table}`... " />
+                <marker date="1554425435639" expanded="true" signature="2794:3017" ph="INSERT INTO `${$table}`... " />
+                <marker date="1554425435639" expanded="true" signature="4873:4980" ph="SELECT * FRO... " />
+                <marker date="1554425435639" expanded="true" signature="4873:4989" ph="SELECT * FRO... " />
+                <marker date="1554425435639" expanded="true" signature="4873:4997" ph="SELECT * FRO... ${$table}" />
+                <marker date="1554425435639" expanded="true" signature="4873:5011" ph="SELECT * FRO... ${$table}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analytics_manager.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/RecordAlreadyExistsException.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" />
+        <option value="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" />
       </list>
     </option>
   </component>
@@ -407,12 +389,12 @@
       <workItem from="1554338994502" duration="60000" />
       <workItem from="1554339116468" duration="1327000" />
       <workItem from="1554385069570" duration="469000" />
-      <workItem from="1554413457301" duration="9458000" />
+      <workItem from="1554413457301" duration="9562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23022000" />
+    <option name="totallyTimeSpent" value="23126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,8 +415,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24625099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -478,14 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -880,18 +854,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+        <state relative-caret-position="510">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="e#53#103#0#PHP" expanded="true" />
-            <marker date="1554425425454" expanded="true" signature="2746:2766" ph="INSERT INTO ``... " />
-            <marker date="1554425425454" expanded="true" signature="2746:2801" ph="INSERT INTO `${$table}`... " />
-            <marker date="1554425425454" expanded="true" signature="2746:2969" ph="INSERT INTO `${$table}`... " />
-            <marker date="1554425425454" expanded="true" signature="4825:4932" ph="SELECT * FRO... " />
-            <marker date="1554425425454" expanded="true" signature="4825:4941" ph="SELECT * FRO... " />
-            <marker date="1554425425454" expanded="true" signature="4825:4949" ph="SELECT * FRO... ${$table}" />
-            <marker date="1554425425454" expanded="true" signature="4825:4963" ph="SELECT * FRO... ${$table}" />
+            <marker date="1554425435639" expanded="true" signature="2794:2814" ph="INSERT INTO ``... " />
+            <marker date="1554425435639" expanded="true" signature="2794:2849" ph="INSERT INTO `${$table}`... " />
+            <marker date="1554425435639" expanded="true" signature="2794:3017" ph="INSERT INTO `${$table}`... " />
+            <marker date="1554425435639" expanded="true" signature="4873:4980" ph="SELECT * FRO... " />
+            <marker date="1554425435639" expanded="true" signature="4873:4989" ph="SELECT * FRO... " />
+            <marker date="1554425435639" expanded="true" signature="4873:4997" ph="SELECT * FRO... ${$table}" />
+            <marker date="1554425435639" expanded="true" signature="4873:5011" ph="SELECT * FRO... ${$table}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
