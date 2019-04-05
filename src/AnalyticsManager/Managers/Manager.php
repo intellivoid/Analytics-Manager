@@ -14,6 +14,10 @@
     use AnalyticsManager\Utilities\Hashing;
     use ZiProto\ZiProto;
 
+    /**
+     * Class Manager
+     * @package AnalyticsManager\Managers
+     */
     class Manager
     {
         /**
@@ -147,6 +151,46 @@
                 $Row['yesterday'] = ZiProto::decode($Row['yesterday']);
 
                 return Record::fromArray($Row);
+            }
+        }
+
+        /**
+         * Updates an existing record
+         *
+         * @param string $table
+         * @param Record $record
+         * @return bool
+         * @throws DatabaseException
+         * @throws RecordNotFoundException
+         */
+        public function updateRecord(string $table, Record $record): bool
+        {
+            if($this->idExists($table, $record->ID) == false)
+            {
+                throw new RecordNotFoundException();
+            }
+
+            $ID = (int)$record->ID;
+            $PublicID = $this->analyticsManager->getDatabase()->real_escape_string($record->PublicID);
+            $Name = $this->analyticsManager->getDatabase()->real_escape_string($record->Name);
+            $ThisMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->ThisMonth));
+            $LastMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->LastMonth));
+            $Today = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Today));
+            $Yesterday = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Yesterday));
+            $CreationTimestamp = (int)$record->CreationTimestamp;
+            $LastUpdated = (int)time();
+
+            /** @noinspection SqlResolve */
+            $Query = "UPDATE `$table` SET public_id='$PublicID', name='$Name', this_month='$ThisMonth', last_month='$LastMonth', today='$Today', yesterday='$Yesterday', creation_timestamp=$CreationTimestamp, last_updated=$LastUpdated WHERE id=$ID";
+            $QueryResults = $this->analyticsManager->getDatabase()->query($Query);
+
+            if($QueryResults == true)
+            {
+                return true;
+            }
+            else
+            {
+                throw new DatabaseException($this->analyticsManager->getDatabase()->error, $Query);
             }
         }
 
