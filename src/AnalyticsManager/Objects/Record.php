@@ -1,8 +1,12 @@
 <?php
 
     namespace AnalyticsManager\Objects;
+    use AnalyticsManager\Utilities\Builder;
 
-
+    /**
+     * Class Record
+     * @package AnalyticsManager\Objects
+     */
     class Record
     {
         /**
@@ -161,4 +165,49 @@
 
             return $RecordObject;
         }
+
+        /**
+         * Syncs object to be up to date
+         */
+        public function sync()
+        {
+            if($this->ThisMonth->month_date !== (int)date('n'))
+            {
+                $this->LastMonth = $this->ThisMonth;
+                $this->ThisMonth = new MonthData();
+                $this->ThisMonth->available = true;
+                $this->ThisMonth->data = Builder::buildMonth((int)date('n'), (int)date('Y'));
+                $this->ThisMonth->month_date = (int)date('n');
+            }
+
+            if($this->Today->day_date !== (int)date('j'))
+            {
+                $this->Yesterday = $this->Today;
+                $this->Today = new DayData();
+                $this->Today->available = true;
+                $this->Today->day_date = (int)date('j');
+                $this->Today->data = Builder::buildDay();
+            }
+        }
+
+        /**
+         * Tallies data
+         *
+         * @param int $amount
+         * @param bool $month
+         * @param bool $day
+         */
+        public function tally(int $amount, bool $month = true, bool $day = true)
+        {
+            if($month == true)
+            {
+                $this->ThisMonth->tally($amount);
+            }
+
+            if($day == true)
+            {
+                $this->Today->tally($amount);
+            }
+        }
+
     }

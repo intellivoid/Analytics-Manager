@@ -52,8 +52,8 @@
 
             $ThisMonth = new MonthData();
             $ThisMonth->available = true;
-            $ThisMonth->data = Builder::buildMonth((int)date('j'), (int)date('Y'));
-            $ThisMonth->month_date = (int)date('j');
+            $ThisMonth->data = Builder::buildMonth((int)date('n'), (int)date('Y'));
+            $ThisMonth->month_date = (int)date('n');
 
             $LastMonth = new MonthData();
             $LastMonth->available = false;
@@ -63,6 +63,7 @@
             $Today = new DayData();
             $Today->available = true;
             $Today->data = Builder::buildDay();
+            $Today->day_date = (int)date('j');
 
             $Yesterday = new DayData();
             $Yesterday->available = false;
