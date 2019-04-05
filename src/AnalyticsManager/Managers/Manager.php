@@ -173,10 +173,10 @@
             $ID = (int)$record->ID;
             $PublicID = $this->analyticsManager->getDatabase()->real_escape_string($record->PublicID);
             $Name = $this->analyticsManager->getDatabase()->real_escape_string($record->Name);
-            $ThisMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->ThisMonth));
-            $LastMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->LastMonth));
-            $Today = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Today));
-            $Yesterday = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Yesterday));
+            $ThisMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->ThisMonth->toArray()));
+            $LastMonth = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->LastMonth->toArray()));
+            $Today = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Today->toArray()));
+            $Yesterday = $this->analyticsManager->getDatabase()->real_escape_string(ZiProto::encode($record->Yesterday->toArray()));
             $CreationTimestamp = (int)$record->CreationTimestamp;
             $LastUpdated = (int)time();
 
