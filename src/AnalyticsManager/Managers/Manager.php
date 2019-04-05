@@ -83,7 +83,7 @@
             $table = $this->analyticsManager->getDatabase()->real_escape_string($table);
 
             /** @noinspection SqlResolve */
-            $Query = "INSERT INTO `$table` (public_id, name, this_month, last_month, today, yesterday, creation_timestamp, last_updated) ('$PublicID', '$Name', '$ThisMonth', '$LastMonth', '$Today', '$Yesterday', $CreationTimestamp, $LastUpdated)";
+            $Query = "INSERT INTO `$table` (public_id, name, this_month, last_month, today, yesterday, creation_timestamp, last_updated) VALUES ('$PublicID', '$Name', '$ThisMonth', '$LastMonth', '$Today', '$Yesterday', $CreationTimestamp, $LastUpdated)";
             $QueryResults = $this->analyticsManager->getDatabase()->query($Query);
 
             if($QueryResults == false)
