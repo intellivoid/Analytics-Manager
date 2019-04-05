@@ -45,7 +45,7 @@
          */
         public function createRecord(string $table, string $name): Record
         {
-            if($this->nameExists($table, $name) == false)
+            if($this->nameExists($table, $name) == true)
             {
                 throw new RecordAlreadyExistsException();
             }
