@@ -42,6 +42,8 @@
          * @return Record
          * @throws DatabaseException
          * @throws RecordAlreadyExistsException
+         * @throws RecordNotFoundException
+         * @throws RecordNotFoundException
          */
         public function createRecord(string $table, string $name): Record
         {
@@ -200,6 +202,8 @@
          * @param string $table
          * @param int $id
          * @return bool
+         * @throws DatabaseException
+         * @throws DatabaseException
          */
         public function idExists(string $table, int $id): bool
         {
@@ -220,6 +224,8 @@
          * @param string $table
          * @param string $public_id
          * @return bool
+         * @throws DatabaseException
+         * @throws DatabaseException
          */
         public function publicIdExists(string $table, string $public_id): bool
         {
@@ -240,6 +246,8 @@
          * @param string $table
          * @param string $name
          * @return bool
+         * @throws DatabaseException
+         * @throws DatabaseException
          */
         public function nameExists(string $table, string $name): bool
         {
