@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,32 +31,32 @@
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4131">
-              <caret line="253" column="13" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
+              <caret line="261" column="13" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
               <folding>
                 <element signature="e#53#103#0#PHP" expanded="true" />
-                <marker date="1554478236362" expanded="true" signature="2919:2939" ph="INSERT INTO ``... " />
-                <marker date="1554478236362" expanded="true" signature="2919:2974" ph="INSERT INTO `${$table}`... " />
-                <marker date="1554478236362" expanded="true" signature="2919:3149" ph="INSERT INTO `${$table}`... " />
-                <marker date="1554478236362" expanded="true" signature="5005:5112" ph="SELECT * FRO... " />
-                <marker date="1554478236362" expanded="true" signature="5005:5121" ph="SELECT * FRO... " />
-                <marker date="1554478236362" expanded="true" signature="5005:5129" ph="SELECT * FRO... ${$table}" />
-                <marker date="1554478236362" expanded="true" signature="5005:5143" ph="SELECT * FRO... ${$table}" />
-                <marker date="1554478236362" expanded="true" signature="7403:7432" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7451" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7465" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7508" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7524" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7548" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7549" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7569" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7602" ph="UPDATE `${$t... " />
-                <marker date="1554478236362" expanded="true" signature="7403:7624" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="3005:3025" ph="INSERT INTO ``... " />
+                <marker date="1554679170763" expanded="true" signature="3005:3060" ph="INSERT INTO `${$table}`... " />
+                <marker date="1554679170763" expanded="true" signature="3005:3235" ph="INSERT INTO `${$table}`... " />
+                <marker date="1554679170763" expanded="true" signature="5091:5198" ph="SELECT * FRO... " />
+                <marker date="1554679170763" expanded="true" signature="5091:5207" ph="SELECT * FRO... " />
+                <marker date="1554679170763" expanded="true" signature="5091:5215" ph="SELECT * FRO... ${$table}" />
+                <marker date="1554679170763" expanded="true" signature="5091:5229" ph="SELECT * FRO... ${$table}" />
+                <marker date="1554679170763" expanded="true" signature="7489:7518" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7537" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7551" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7594" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7610" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7634" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7635" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7655" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7688" ph="UPDATE `${$t... " />
+                <marker date="1554679170763" expanded="true" signature="7489:7710" ph="UPDATE `${$t... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -69,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -82,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1377">
-              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -152,7 +148,28 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Analytics Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytics-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Analytics Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytics-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Analytics Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytics-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyticsManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,12 +231,12 @@
       <workItem from="1554385069570" duration="469000" />
       <workItem from="1554413457301" duration="10956000" />
       <workItem from="1554466878230" duration="7086000" />
-      <workItem from="1554679055446" duration="57000" />
+      <workItem from="1554679055446" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31663000" />
+    <option name="totallyTimeSpent" value="31741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,23 +248,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="17" width="1382" height="730" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" weight="0.24940805" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32943144" />
+      <window_info anchor="bottom" id="Database Changes" weight="0.32943144" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2993311" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32943144" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943144" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2993311" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32909092" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -308,7 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -317,7 +334,7 @@
         <state relative-caret-position="-1900">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding>
-            <element signature="e#52#104#0#PHP" expanded="false" />
+            <element signature="e#52#104#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -329,7 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -337,7 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -345,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -353,7 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -361,7 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,7 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -377,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +396,7 @@
         <state relative-caret-position="2362">
           <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
           <folding>
-            <element signature="e#51#103#0#PHP" expanded="false" />
+            <element signature="e#51#103#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -394,41 +404,34 @@
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4131">
-          <caret line="253" column="13" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
+          <caret line="261" column="13" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
           <folding>
             <element signature="e#53#103#0#PHP" expanded="true" />
-            <marker date="1554478236362" expanded="true" signature="2919:2939" ph="INSERT INTO ``... " />
-            <marker date="1554478236362" expanded="true" signature="2919:2974" ph="INSERT INTO `${$table}`... " />
-            <marker date="1554478236362" expanded="true" signature="2919:3149" ph="INSERT INTO `${$table}`... " />
-            <marker date="1554478236362" expanded="true" signature="5005:5112" ph="SELECT * FRO... " />
-            <marker date="1554478236362" expanded="true" signature="5005:5121" ph="SELECT * FRO... " />
-            <marker date="1554478236362" expanded="true" signature="5005:5129" ph="SELECT * FRO... ${$table}" />
-            <marker date="1554478236362" expanded="true" signature="5005:5143" ph="SELECT * FRO... ${$table}" />
-            <marker date="1554478236362" expanded="true" signature="7403:7432" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7451" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7465" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7508" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7524" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7548" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7549" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7569" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7602" ph="UPDATE `${$t... " />
-            <marker date="1554478236362" expanded="true" signature="7403:7624" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="3005:3025" ph="INSERT INTO ``... " />
+            <marker date="1554679170763" expanded="true" signature="3005:3060" ph="INSERT INTO `${$table}`... " />
+            <marker date="1554679170763" expanded="true" signature="3005:3235" ph="INSERT INTO `${$table}`... " />
+            <marker date="1554679170763" expanded="true" signature="5091:5198" ph="SELECT * FRO... " />
+            <marker date="1554679170763" expanded="true" signature="5091:5207" ph="SELECT * FRO... " />
+            <marker date="1554679170763" expanded="true" signature="5091:5215" ph="SELECT * FRO... ${$table}" />
+            <marker date="1554679170763" expanded="true" signature="5091:5229" ph="SELECT * FRO... ${$table}" />
+            <marker date="1554679170763" expanded="true" signature="7489:7518" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7537" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7551" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7594" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7610" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7634" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7635" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7655" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7688" ph="UPDATE `${$t... " />
+            <marker date="1554679170763" expanded="true" signature="7489:7710" ph="UPDATE `${$t... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -450,6 +453,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
