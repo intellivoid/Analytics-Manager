@@ -2,7 +2,6 @@
 
     namespace AnalyticsManager;
 
-
     use AnalyticsManager\Managers\Manager;
     use mysqli;
 

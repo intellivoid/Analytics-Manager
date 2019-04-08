@@ -132,11 +132,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="362" />
-    <option name="y" value="17" />
-    <option name="width" value="1382" />
-    <option name="height" value="730" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
+    <option name="y" value="25" />
+    <option name="width" value="1302" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,7 +176,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AnalyticsManager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -231,12 +231,12 @@
       <workItem from="1554385069570" duration="469000" />
       <workItem from="1554413457301" duration="10956000" />
       <workItem from="1554466878230" duration="7086000" />
-      <workItem from="1554679055446" duration="135000" />
+      <workItem from="1554679055446" duration="779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31741000" />
+    <option name="totallyTimeSpent" value="32385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +248,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-159" y="12" width="1382" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" weight="0.24940805" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -265,12 +265,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943144" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943144" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2993311" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2993311" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32909092" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18154311" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.18154311" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
