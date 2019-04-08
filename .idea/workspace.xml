@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="" />
+    <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4131">
+            <state relative-caret-position="4267">
               <caret line="261" column="13" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
               <folding>
                 <element signature="e#53#103#0#PHP" expanded="true" />
@@ -66,9 +68,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Type/Map.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="646">
               <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
             </state>
           </provider>
@@ -77,8 +84,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#45#83#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Exceptions/RecordAlreadyExistsException.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Objects/MonthData.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Objects/Record.php" />
-        <option value="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" />
+        <option value="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" />
       </list>
     </option>
@@ -176,7 +186,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AnalyticsManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sws" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -232,11 +242,12 @@
       <workItem from="1554413457301" duration="10956000" />
       <workItem from="1554466878230" duration="7086000" />
       <workItem from="1554679055446" duration="779000" />
+      <workItem from="1554692304459" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32385000" />
+    <option name="totallyTimeSpent" value="32494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,15 +259,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-159" y="12" width="1382" height="730" extended-state="0" />
+    <frame x="32" y="25" width="1302" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19243157" />
       <window_info id="Structure" order="1" weight="0.24940805" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32943144" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32943144" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -265,12 +273,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943144" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943144" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2993311" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29755178" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32909092" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32943144" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32943144" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.18154311" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.19323671" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
@@ -339,9 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Type/Map.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Hashing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -403,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Managers/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4131">
+        <state relative-caret-position="4267">
           <caret line="261" column="13" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
           <folding>
             <element signature="e#53#103#0#PHP" expanded="true" />
@@ -428,10 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="646">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -449,10 +457,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php">
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/ZiProto/Type/Map.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#45#83#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
