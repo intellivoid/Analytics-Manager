@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f54d20-f1ce-4670-933d-b6e35d4abe45" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="74" column="63" lean-forward="true" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+            <state relative-caret-position="1008">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
               <folding>
                 <element signature="e#44#56#0#PHP" expanded="true" />
               </folding>
@@ -41,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -50,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="127">
+              <caret line="8" column="5" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="e#7#19#0#PHP" expanded="true" />
+                <element signature="e#11#23#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,9 +104,9 @@
         <option value="$PROJECT_DIR$/src/AnalyticsManager/Utilities/Builder.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/configuration.ini" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/setup" />
-        <option value="$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php" />
         <option value="$PROJECT_DIR$/src/AnalyticsManager/analytics_manager.json" />
+        <option value="$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php" />
       </list>
     </option>
   </component>
@@ -153,7 +154,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../modular-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -213,12 +214,15 @@
       <workItem from="1554692304459" duration="109000" />
       <workItem from="1561014843744" duration="1324000" />
       <workItem from="1561067777050" duration="139000" />
-      <workItem from="1561067999000" duration="248000" />
+      <workItem from="1561067999000" duration="891000" />
+      <workItem from="1561074018980" duration="16000" />
+      <workItem from="1561074109449" duration="16000" />
+      <workItem from="1561074658538" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34205000" />
+    <option name="totallyTimeSpent" value="34894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,7 +237,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" weight="0.24940805" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,34 +399,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/configuration.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/setup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="e#7#19#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/setup" />
     <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AnalyticsManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="74" column="63" lean-forward="true" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+        <state relative-caret-position="1008">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
           <folding>
             <element signature="e#44#56#0#PHP" expanded="true" />
           </folding>
@@ -433,6 +414,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/configuration.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyticsManager/AutoConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="5" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#11#23#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
