@@ -3,7 +3,6 @@
     namespace AnalyticsManager;
 
     use acm\acm;
-    use acm\Objects\Schema;
     use AnalyticsManager\Managers\Manager;
     use Exception;
     use mysqli;
@@ -38,6 +37,8 @@
         include_once(__DIR__ . DIRECTORY_SEPARATOR . 'acm' . DIRECTORY_SEPARATOR . 'acm.php');
     }
 
+    include(__DIR__ . DIRECTORY_SEPARATOR . 'AutoConfig.php');
+
     /**
      * Class AnalyticsManager
      * @package AnalyticsManager
@@ -71,16 +72,7 @@
          */
         public function __construct(string $database_name)
         {
-            //$this->configuration = parse_ini_file(__DIR__ . DIRECTORY_SEPARATOR . 'configuration.ini');
             $this->acm = new acm(__DIR__, 'Analytics Manager');
-
-            $DatabaseSchema = new Schema();
-            $DatabaseSchema->setDefinition('Host', 'localhost');
-            $DatabaseSchema->setDefinition('Port', '3306');
-            $DatabaseSchema->setDefinition('Username', 'root');
-            $DatabaseSchema->setDefinition('Password', '');
-
-            $this->acm->defineSchema('Database', $DatabaseSchema);
             $this->DatabaseConfiguration = $this->acm->getConfiguration('Database');
 
             $this->database = new mysqli(

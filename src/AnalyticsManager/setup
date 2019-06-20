@@ -1,5 +1,0 @@
-<?PHP
-
-    include_once(__DIR__ . DIRECTORY_SEPARATOR . 'AnalyticsManager.php');
-    $AnalyticsManager = new \AnalyticsManager\AnalyticsManager();
-    $AnalyticsManager->getAcm()->processCommandLine();
